@@ -8,10 +8,10 @@ class Config(object):
 	API_HASH = os.environ.get("1b40c01ae078463626e1b4e8fe78e3a5")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1078225192"))
+	DB_CHANNEL = int(os.environ.get("-1001984137290", "-1001583779155"))
+	BOT_OWNER = int(os.environ.get("1078225192", "1339262764"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+	UPDATES_CHANNEL = os.environ.get("-1001825264509", "-1001506710273")
 	LOG_CHANNEL = os.environ.get("-1001878894820", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
@@ -22,7 +22,7 @@ class Config(object):
 This is Permanent Files Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+🤖 **My Name:** [Files Store Bot](https://t.me/)
 
 📝 **Language:** [Python3](https://www.python.org)
 
