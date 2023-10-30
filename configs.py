@@ -4,7 +4,7 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "23562768"))
+	API_ID = int(os.environ.get("23562768", ""))
 	API_HASH = os.environ.get("1b40c01ae078463626e1b4e8fe78e3a5")
 	BOT_TOKEN = os.environ.get("6678356956:AAErFaEqRqmP28kQV2jlBT6TtOBs40Vu4Zo")
 	BOT_USERNAME = os.environ.get("Zero2filestorebot")
